@@ -2,10 +2,6 @@
 
 Site institucional para empresa especializada em refrigeração industrial, desenvolvido com HTML, CSS e JavaScript puro e hospedado na Netlify.
 
-Mostrar Imagem
-Mostrar Imagem
-Mostrar Imagem
-Mostrar Imagem
 🔗 Acesse o site ao vivo →
 
 📋 Sobre o Projeto
