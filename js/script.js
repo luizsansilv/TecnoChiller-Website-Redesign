@@ -1,7 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
    
+    const basePath = window.location.hostname.includes("github.io")
+    ? "/TecnoChiller-site" : "";
 
-    fetch("/TecnoChiller-site/components/menu.html")
+    fetch(basePath + "/components/menu.html")
     .then(res => res.text())
     .then(data => {
         document.getElementById("menu-container").innerHTML = data;
@@ -19,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     });
 
-    fetch("/TecnoChiller-site/components/footer.html")
+    fetch(basePath + "/components/footer.html")
     .then(res => res.text())
     .then(data => {
         document.getElementById("footer-container").innerHTML = data;
