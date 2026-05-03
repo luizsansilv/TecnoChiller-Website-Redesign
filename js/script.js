@@ -1,28 +1,30 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    fetch("./components/menu.html")
-    .then(res => res.text())
-    .then(data => {
-        document.getElementById("menu-container").innerHTML = data;
+    const basePath = window.location.hostname.includes("github.io")
+        ? "/TecnoChiller-site/"
+        : "/";
 
-        const toggle = document.querySelector(".menu-toggle");
-        const navLinks = document.querySelector(".nav-links");
+    fetch(basePath + "components/menu.html")
+        .then(res => res.text())
+        .then(data => {
+            document.getElementById("menu-container").innerHTML = data;
 
-        if (toggle && navLinks) {
-            
-            toggle.addEventListener("click", () => {
-                navLinks.classList.toggle("active");
-            });
+            const toggle = document.querySelector(".menu-toggle");
+            const navLinks = document.querySelector(".nav-links");
 
-        }
+            if (toggle && navLinks) {
+                toggle.addEventListener("click", () => {
+                    navLinks.classList.toggle("active");
+                });
+            }
+        });
 
-    });
+    fetch(basePath + "components/footer.html")
+        .then(res => res.text())
+        .then(data => {
+            document.getElementById("footer-container").innerHTML = data;
+        });
 
-    fetch("./components/footer.html")
-    .then(res => res.text())
-    .then(data => {
-        document.getElementById("footer-container").innerHTML = data;
-    });
 
     const form = document.querySelector("form");
     const msg = document.querySelector(".form-sucesso");
