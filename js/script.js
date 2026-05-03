@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    fetch("components/menu.html")
+    fetch("./components/menu.html")
     .then(res => res.text())
     .then(data => {
         document.getElementById("menu-container").innerHTML = data;
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     });
 
-    fetch("components/footer.html")
+    fetch("./components/footer.html")
     .then(res => res.text())
     .then(data => {
         document.getElementById("footer-container").innerHTML = data;
