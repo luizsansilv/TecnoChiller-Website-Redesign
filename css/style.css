@@ -128,6 +128,7 @@ h2 {
 }
 
 .servicos h3{
+    margin-bottom: 20px;
     font-size: 1.5rem;
     color: #0a2642;
 }
@@ -186,6 +187,7 @@ h2 {
 }
 
 .pagina-topo p {
+    margin-top: 10px;
     opacity: 0.9;
 }
 
