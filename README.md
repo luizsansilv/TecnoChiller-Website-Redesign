@@ -1,13 +1,12 @@
 # 🧊 TecnoChiller — Site Institucional
 
-> Site institucional para empresa especializada em **refrigeração industrial**, desenvolvido com HTML, CSS e JavaScript puro e hospedado na Netlify.
+> Site institucional para empresa especializada em **refrigeração industrial**, desenvolvido com HTML, CSS e JavaScript puro.
 
-[![Deploy Status](https://img.shields.io/badge/deploy-netlify-00C7B7?style=flat&logo=netlify)](https://tecchiller.netlify.app/)
 [![HTML](https://img.shields.io/badge/HTML-50.6%25-E34F26?style=flat&logo=html5&logoColor=white)](https://github.com/luizsansilv/TecnoChiller-site)
 [![CSS](https://img.shields.io/badge/CSS-42.3%25-1572B6?style=flat&logo=css3&logoColor=white)](https://github.com/luizsansilv/TecnoChiller-site)
 [![JavaScript](https://img.shields.io/badge/JavaScript-7.1%25-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://github.com/luizsansilv/TecnoChiller-site)
 
-🔗 **[Acesse o site ao vivo →](https://tecchiller.netlify.app/)**
+🔗 **[Acesse o site ao vivo →]( https://luizsansilv.github.io/TecnoChiller-site/)**
 
 ---
 
@@ -32,7 +31,7 @@ Este projeto foi construído com tecnologias web nativas, sem dependência de fr
 | **HTML5** | Estrutura e marcação semântica |
 | **CSS3** | Estilização, layout e responsividade |
 | **JavaScript** | Interatividade e comportamento dinâmico |
-| **Netlify** | Hospedagem e deploy contínuo |
+| **GitHub** | Hospedagem e deploy |
 
 ---
 
@@ -75,11 +74,11 @@ cd TecnoChiller-site
 
 ## 🌐 Deploy
 
-O site está hospedado na **Netlify** com deploy automático a partir da branch `main`.
+O site está hospedado na **GitHub** com deploy automático a partir da branch `main`.
 
 Qualquer push para a branch principal atualiza o site em produção automaticamente.
 
-**URL de produção:** [https://tecchiller.netlify.app/](https://tecchiller.netlify.app/)
+**URL de produção:** [ https://luizsansilv.github.io/TecnoChiller-site/]( https://luizsansilv.github.io/TecnoChiller-site/)
 
 ---
 
